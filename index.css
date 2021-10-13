@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+body, html {
+   overflow-x:hidden;
+ }
+body{
+  background-color: #FEF9EF;
+  margin:0;
+  font-family: "Times New Roman", Times, serif;
+  color: #51050F;
+
+
+
+}
+#home{
+  font-size: 23px;
+}
+div.topbar
+{
+  display: block;
+  margin:0px;
+  -ms-transform: translateY(-10%);
+  transform: translateY(-10%);
+  background-color: #FF7777;
+  padding: 0;
+  justify-content: center;
+
+
+}
+  .top{
+      display:block;
+
+      align-items: center;
+    }
+  .top ul{
+      display:inline-flex;
+      justify-content:center;
+
+      margin:0.5rem;
+
+    }
+    .top ul li{
+        margin:0 1rem;
+  }
+    .top ul li a{
+        font-weight: bold;
+    }
+  .logo{
+    width:150px;
+    height:150px;
+  }
+  div .pics ul li a{
+     display: inline;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  div .menu-btn i{
+    color: #2a9d8f;
+    position: relative;
+    left: 9rem;
+    font-size: 25px;
+    display: none;
+  }
+  .btn {
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+    border:3px solid #495057;
+    border-radius: 5rem;
+    height:2rem;
+    width:7rem;
+    margin:0 2rem;
+    color:whitesmoke;
+    background-color: #2a9d8f;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Scheherazade New', serif;
+    font-size: 20px;
+
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+pre {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  width: 100%;
+  color:#51050F;
+}
+.hand{
+
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 350px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  -ms-transform: translateY(-15%);
+  transform: translateY(-15%);
+}
+.btn1 {
+
+  display:inline;
+  justify-content:center;
+  align-items: center;
+  border:2px solid black;
+  height:auto;
+  width:auto;
+  color:whitesmoke;
+  background-color: #2a9d8f;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Scheherazade New', serif;
+  font-size: 30px;
+  font-style: oblique;
+}
+.donate{
+  position:relative;
+}
+.button{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.donate:hover .hand{
+  opacity: 0.2;
+}
+.donate:hover .button {
+  opacity: 1;
+}
+hr{
+border-style: none;
+border-top: dotted;/*or border-topstyle: dotted; */
+border-width: 10px;
+height: 0px;
+width: 10%;
+color: #FF7777;
+}
+#about{
+  font-size: 25px;
+  text-align: justify;
+  padding: 10px;
+}
+h1{
+  color:#2a9d8f;
+}
+.beni{
+  height:10%;
+  width:10%;
+  display:inline-flex;
+  justify-content:center;
+
+  margin:0.5rem;
+}
+th{
+  color:#2a9d8f;
+}
+
+td:hover {
+  background-color:#FF7777;
+}
+tr{
+  column-gap: 30px;
+  font-size: 25px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+
+}
+footer .foot{
+  height:10vh;
+  width:100%;
+  background-color:#2a9d8f;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+footer .foot h3{
+  color:#495057;
+  font-size:15px;
+  font-family: monospace;
+}
+
+
+.wh{
+  width: 450px;
+  height:250px:
+}
+.co{
+  color:#2a9d8f;
+  font-size: 30px;
+  font-weight: bold;
+  table-layout: fixed;
+  width: 240px;
+
+}
+
+.jus{
+  text-align: justify;
+  table-layout: fixed;
+  width: 240px;
+  font-size: 20px;
+}
+
+.tbl{
+  padding: 40px;
+  border-spacing:20px;
+  table-layout: fixed;
+
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+
+#contact {
+	background:#DDDDDD;
+	padding:50px;
+	margin:50px 0;
+
+
+}
+
+fieldset {
+	border: medium;
+	margin: 0 0 10px;
+	min-width: 100%;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact textarea {
+	width:100%;
+	border:1px
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover,  #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+  background:#0CF;
+	color::#2a9d8f
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+.iconlist{
+  display:block;
+}
